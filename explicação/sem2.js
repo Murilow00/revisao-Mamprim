@@ -1,4 +1,4 @@
-/*const pessoa = {
+const pessoa = {
     nome: "maria",
     falar: function() {
         console.log("Meu nome é " + this.nome)
@@ -6,9 +6,9 @@
 };
 
 pessoa.falar()
-*/
 
-const pessoa = {
+
+const pessoas = {
     nome: "Murilo",
     apresentar: function(){
         setTimeout(() => {
